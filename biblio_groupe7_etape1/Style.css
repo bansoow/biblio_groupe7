@@ -1,0 +1,65 @@
+*{
+  margin : 0;
+  padding : 0;
+}
+body{
+  background-color: #5C85A6;
+}
+.img img{
+  width: 297px;
+  height: 480px;
+}
+
+.textcenter{
+  display: flex;
+  justify-content:space-around;
+  flex-direction: row;
+}
+.titre{
+  color: white;
+}
+.container{
+  font-family: arial;
+  background-color: #5C85A6;
+  color: white;
+  padding: 0 100px;
+  flex-direction: column;
+  display: flex;
+}
+.selection{
+  color: #5C85A6;
+  margin-left: 200px;
+  height: 200%;
+}
+.livre3{
+  width: 100%;
+  height: 90%;
+  clip-path: inset(20% 0 10% 0);
+  margin-top: -140px;
+}
+.logo{
+  height: 150px;
+  padding-left: 250px;
+}
+.title{
+  margin-top: -145px;
+  margin-left: 460px;
+  font-family: arial, bold;
+  font-size: 30px;
+  color: white;
+}
+.texte1{
+  font-family: arial, bold;
+  font-size: 50px;
+  padding-left:200px;
+  margin: -40px 0 50px 0;
+  color: white;
+}
+@media (min-width : 601px) and (max-width: 992px){
+ .livre3{ display: none}
+ .texte1{ font-size: 40px; margin: 20px 0px 40px 163px}
+ .textcenter {flex-direction: column;}
+ .container{margin: 0px 0px 0px 250px}
+ .titre{margin: 0 0 10px 0}
+ p{margin: 0 0 30px 0}
+}
