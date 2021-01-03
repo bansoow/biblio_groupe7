@@ -1,0 +1,25 @@
+textarea{
+  height: 150px;
+}
+input{
+  padding: 5px;
+}
+body{
+  font-family: arial, bold;
+  color: white;
+}
+h1{
+  display: flex;
+  justify-content: center;
+}
+h2{
+  text-align: center;
+}
+.all{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}

@@ -1,0 +1,34 @@
+*{
+  margin : 0;
+  padding : 0;
+}
+body{
+  background-color: #5C85A6;
+}
+.img img{
+  width: 297px;
+  height: 480px;
+}
+
+.textcenter{
+  display: flex;
+  flex-direction: row;
+  grid-auto-rows: 50px;
+  grid-gap: 50px;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.titre{
+  color: white;
+}
+.container{
+  font-family: arial;
+  background-color: #5C85A6;
+  color: white;
+}
+@media screen and (max-width: 992px){
+ .livre3{ display: none}
+ .texte1{ margin: 20px 0px 40px 163px}
+ .textcenter {flex-direction: column;}
+ .container{text-align: center;}
+}
