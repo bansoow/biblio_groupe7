@@ -1,0 +1,16 @@
+textarea{
+  width: 50%;
+  height: 150px;
+}
+input{
+  display: flex;
+  justify-content: flex-start;
+}
+body{
+  font-family: arial, bold;
+  color: white;
+}
+h1{
+  display: flex;
+  justify-content: center;
+}
