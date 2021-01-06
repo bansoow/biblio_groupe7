@@ -6,7 +6,7 @@ require "header.php";
   <body>
   <div class="img">
     <div class="position">
-    <img class="img1" src="image/couverture/fahrenheit-451.jpg" title="Fahrenheit 451">
+    <img class="img1" src="image/couverture/9791035801823.jpg" title="Fahrenheit 451">
     </div>
     <div class="texte">
       <p><em>Fahrenheit 451 </em>,de Ray Bradbury</p>

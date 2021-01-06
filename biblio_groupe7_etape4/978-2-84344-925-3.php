@@ -6,7 +6,7 @@ require "header.php";
   <body>
   <div class="img">
     <div class="position">
-    <img class="img1" src="image/couverture/Le-Sultan-des-Nuages.jpg" title="Le Sultan des Nuages">
+    <img class="img1" src="image/couverture/9782843449253.jpg" title="Le Sultan des Nuages">
     </div>
     <div class="texte">
       <p><em>Le Sultan des nuages</em>,de Geoffrey A. Landis</p>

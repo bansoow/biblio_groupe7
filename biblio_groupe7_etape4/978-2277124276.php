@@ -6,7 +6,7 @@ require "header.php";
   <body>
   <div class="img">
     <div class="position">
-    <img class="img1" src="image/couverture/des-fleurs-pour-algernon.jpg" title="Des fleurs pour algernon">
+    <img class="img1" src="image/couverture/9782277124276.jpg" title="Des fleurs pour algernon">
     </div>
     <div class="texte">
       <p><em>Des fleurs pour Algernon </em>,de Daniel Keyes </p>

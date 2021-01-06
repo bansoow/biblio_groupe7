@@ -6,7 +6,7 @@ require "header.php";
   <body>
   <div class="img">
     <div class="position">
-    <img class="img1" src="image/couverture/les-robots.jpg" title="Les Robots">
+    <img class="img1" src="image/couverture/9782290227268.jpg" title="Les Robots">
     </div>
     <div class="texte">
       <p><em>Les Robots</em>,de Isaac Asimov</p>

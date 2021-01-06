@@ -6,7 +6,7 @@ require "header.php";
   <body>
   <div class="img">
     <div class="position">
-    <img class="img1" src="image/couverture/Le-Cinquieme-Principe.jpg" title="Le Cinquième Principe">
+    <img class="img1" src="image/couverture/9782370490476.jpg" title="Le Cinquième Principe">
     </div>
     <div class="texte">
       <p><em>Le Cinquième Principe</em>,de Vittorio Catani</p>

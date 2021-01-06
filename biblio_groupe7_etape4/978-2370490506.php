@@ -6,7 +6,7 @@ require "header.php";
   <body>
   <div class="img">
     <div class="position">
-    <img class="img1" src="image/couverture/On-est-bien-seul-dans-l'univers.jpg" title="On est bien seul dans l'univers">
+    <img class="img1" src="image/couverture/9782370490506.jpg" title="On est bien seul dans l'univers">
     </div>
     <div class="texte">
       <p><em>On est bien seul dans l'univers</em>,de Philippe Curval</p>

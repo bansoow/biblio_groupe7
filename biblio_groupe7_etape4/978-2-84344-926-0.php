@@ -6,7 +6,7 @@ require "header.php";
   <body>
   <div class="img">
     <div class="position">
-    <img class="img1" src="image/couverture/Le-Crepuscule-des-Dieux.jpg" title="Le Crépuscule des dieux">
+    <img class="img1" src="image/couverture/9782843449260.jpg" title="Le Crépuscule des dieux">
     </div>
     <div class="texte">
       <p><em>Le Crépuscule des dieux</em>,de Stéphane Przybyski</p>

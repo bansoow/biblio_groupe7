@@ -6,7 +6,7 @@ require "header.php";
   <body>
   <div class="img">
     <div class="position">
-    <img class="img1" src="image/couverture/pierre-fendre.jpg" title="Pierre Fendre">
+    <img class="img1" src="image/couverture/9782361833619.jpg" title="Pierre Fendre">
     </div>
     <div class="texte">
       <p><em>Pierre Fendre</em>,de Brice Tarvel</p>

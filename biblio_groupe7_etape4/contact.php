@@ -7,11 +7,8 @@ require "header.php";
     <form method="post" action="receive.php">
     <h1><strong>Contact</strong></h1><br>
     <h2>Vous voulez nous Contacter ? remplissez ce formulaire et envoyer votremessage juste en dessous !</h2><br>
+  <div class="all">
 
-<<<<<<< HEAD
-    <div class="all">
-=======
->>>>>>> maxime
     <label  for="name">Nom :</label>
           <input type="text" id="name" name="client_name" autofocus required><br><br>
     <label  for="nickname">Prénom :</label>
@@ -21,15 +18,10 @@ require "header.php";
       <label for="message">Message :</label><br>
             <textarea id="message" name="message" autofocus required></textarea><br><br>
         <button type="submit">S'inscrire</button><br><br>
-<<<<<<< HEAD
-      </div>
+
+    </div>
       </form>
   </body>
   <?php
   require "footer.php";
   ?>
-=======
-
-  </body>
->>>>>>> maxime
-</html>
