@@ -1,8 +1,17 @@
 textarea{
+<<<<<<< HEAD
   height: 150px;
 }
 input{
   padding: 5px;
+=======
+  width: 50%;
+  height: 150px;
+}
+input{
+  display: flex;
+  justify-content: flex-start;
+>>>>>>> maxime
 }
 body{
   font-family: arial, bold;
@@ -12,6 +21,7 @@ h1{
   display: flex;
   justify-content: center;
 }
+<<<<<<< HEAD
 h2{
   text-align: center;
 }
@@ -23,3 +33,5 @@ h2{
   margin: 0 auto;
   margin-bottom: 60px;
 }
+=======
+>>>>>>> maxime
