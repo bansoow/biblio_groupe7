@@ -5,35 +5,14 @@
 body{
   background-color: #5C85A6;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 .img{
 width: 297px;
-height: 480px
-=======
->>>>>>> matteo
-.img img{
-  width: 297px;
-  height: 480px;
-}
-
-.textcenter{
-  display: flex;
-  justify-content:space-around;
-  flex-direction: row;
-<<<<<<< HEAD
-=======
->>>>>>> maxime
->>>>>>> matteo
+height: 480px;
 }
 .titre{
   color: white;
 }
 .container{
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
   display: grid;
   grid-template-columns: repeat(5 , 20%);
   width: 100%;
@@ -50,29 +29,3 @@ height: 480px
  .texte1{ margin: 20px 0px 40px 163px}
  .textcenter {flex-direction: column;}
  .container{text-align: center;}
-=======
->>>>>>> matteo
-  font-family: arial;
-  background-color: #5C85A6;
-  color: white;
-  padding: 0 100px 50px;
-  flex-direction: column;
-  display: flex;
-}
-.selection{
-  color: #5C85A6;
-  margin-left: 200px;
-  height: 200%;
-}
-@media (min-width : 601px) and (max-width: 992px){
- .livre3{ display: none}
- .texte1{ font-size: 40px; margin: 20px 0px 40px 163px}
- .textcenter {flex-direction: column;}
- .container{margin: 0px 0px 0px 250px}
- .titre{margin: 0 0 10px 0}
- p{margin: 0 0 30px 0}
-<<<<<<< HEAD
-=======
->>>>>>> maxime
->>>>>>> matteo
-}
