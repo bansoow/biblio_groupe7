@@ -1,10 +1,23 @@
 textarea{
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  height: 150px;
+}
+input{
+  padding: 5px;
+=======
+>>>>>>> matteo
   width: 50%;
   height: 150px;
 }
 input{
   display: flex;
   justify-content: flex-start;
+<<<<<<< HEAD
+=======
+>>>>>>> maxime
+>>>>>>> matteo
 }
 body{
   font-family: arial, bold;
@@ -14,3 +27,20 @@ h1{
   display: flex;
   justify-content: center;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+h2{
+  text-align: center;
+}
+.all{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+=======
+>>>>>>> maxime
+>>>>>>> matteo
