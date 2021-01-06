@@ -9,7 +9,7 @@
   <header>
       <div class="navig">
         <div class="logo">
-          <a href="/biblio_groupe7_etape3/index.php"><img class="logo" src="image/logo/logo.png" alt="logo"></a>
+          <a href="/biblio_groupe7_etape4/index.php"><img class="logo" src="image/logo/logo.png" alt="logo"></a>
           <h1>Library <br> 404</h1>
         </div>
           <nav>
