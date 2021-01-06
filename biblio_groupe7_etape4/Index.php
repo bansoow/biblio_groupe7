@@ -23,12 +23,7 @@ $bdd->query('SELECT * FROM livre JOIN auteur ON livre.auteur = auteur.idPersonne
    <strong>ISBN:</strong> <?php echo $row['isbn'];?></p>
    </div>
       <?php } ?>
-<<<<<<< HEAD
  </div>
-=======
- </div> 
-
->>>>>>> 6c57b948a897727ffe556df1fa2df0cea017b7fd
   </body>
     <?php
     require "footer.php";
