@@ -5,7 +5,7 @@ require "livre_config.php";
 
 ?>
 
-<link rel="stylesheet" href="\biblio_groupe7_etape4\css\style_isbn">
+<link rel="stylesheet" href="<?php echo $CONFIG['root_path']; ?>css\style_isbn">
   <body>
     <?php foreach ($biblio as $row){
       $couverture = "image/couverture/". $row['isbn'].".jpg";

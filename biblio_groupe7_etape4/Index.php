@@ -7,7 +7,7 @@ $biblio = $bdd->query('SELECT * FROM livre JOIN auteur ON auteur.idPersonne=livr
                                            JOIN editeur ON editeur.id=livre.editeur');
 $biblio->setFetchmode(PDO::FETCH_ASSOC);
 ?>
-<link rel="stylesheet" href="/biblio_groupe7_etape4/css/style.css">
+<link rel="stylesheet" href="<?php echo $CONFIG['root_path']; ?>css/style.css">
 <body>
   <img class="livre3" src="image/livre-3.jpg" alt="livre 3" >
   <p class="texte1">Notre séléction</p>
