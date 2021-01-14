@@ -1,0 +1,20 @@
+li{
+  font-family: arial, bold;
+  font-size: 25px;
+  color: white;
+  list-style: none;
+  color: #5C85A6;
+  padding-right: 30px;
+}
+ul{
+  padding-left: 125px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+a{
+  text-decoration: none;
+  color: #5C85A6;
+}
+footer{
+  background-color: white;
+}
