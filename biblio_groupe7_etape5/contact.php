@@ -2,7 +2,7 @@
 $page_title = "Library 404";
 require "header.php";
 ?>
-<link rel="stylesheet" href="\biblio_groupe7_etape3\css\contactstyle.css">
+<link rel="stylesheet" href="<?php echo $CONFIG['root_path']; ?>css\contactstyle.css">
   <body>
     <form method="post" action="receive.php">
     <h1><strong>Contact</strong></h1><br>
