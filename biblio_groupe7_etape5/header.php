@@ -1,4 +1,4 @@
-<?php $CONFIG=array("root_path"=>"/biblio_groupe7_etape4/"); ?>
+<?php $CONFIG=array("root_path"=>"/biblio_groupe7_etape5/"); ?>
 <!DOCTYPE html>
 <html lang="fr">
   <head>
