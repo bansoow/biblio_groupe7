@@ -1,15 +1,16 @@
+<?php $CONFIG=array("root_path"=>"/biblio_groupe7_etape4/"); ?>
 <!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="\biblio_groupe7_etape3\css\header.css">
+    <link rel="stylesheet" href="<?php echo $CONFIG['root_path']; ?>css/header.css">
     <title>Library 404</title>
   </head>
 <body>
   <header>
       <div class="navig">
         <div class="logo">
-          <a href="/biblio_groupe7_etape4/index.php"><img class="logo" src="image/logo/logo.png" alt="logo"></a>
+          <a href="index.php"><img class="logo" src="image/logo/logo.png" alt="logo"></a>
           <h1>Library <br> 404</h1>
         </div>
           <nav>

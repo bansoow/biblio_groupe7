@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 *{
   margin: 0;
   padding: 0;
 }
-=======
->>>>>>> maxime
 .logo{
   display: flex;
   align-items: center;
@@ -13,21 +10,12 @@
 .livre3{
   width: 100%;
   height: 90%;
-<<<<<<< HEAD
-=======
-  clip-path: inset(20% 0 10% 0);
-  margin-top: -140px;
->>>>>>> maxime
 }
 .texte1{
   font-family: arial, bold;
   font-size: 50px;
   padding-left:200px;
-<<<<<<< HEAD
   margin: 10px 0 50px 0;
-=======
-  margin: -40px 0 50px 0;
->>>>>>> maxime
   color: white;
 }
 h1{
