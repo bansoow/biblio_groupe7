@@ -15,7 +15,7 @@ require "livre_config.php";
     <img class="img1" src="<?php echo $couverture ?>">
     </div>
     <div class="texte">
-      <p><em><?php echo $row['titre'];?></em>, <?php echo $row['nom']." ".$row['prenom'];?></p>
+      <p><em><?php echo $row['titre'];?></em>, <?php echo $row['nom']." ".$row['prenom'];?></p> 
       <p>Isbn : <?php echo $row['isbn'];?></p>
       <p>Editeur : <?php echo $row['editeurs'];?></p>
       <p>Année de sortie : <?php echo $row['annee'];?></p>
