@@ -1,5 +1,4 @@
 <?php
-$page_title = "Library 404";
 require "header.php";
 require "config.php";
 $biblio = $bdd->query('SELECT * FROM livre JOIN auteur ON auteur.idPersonne=livre.auteur
@@ -29,4 +28,5 @@ $biblio->setFetchmode(PDO::FETCH_ASSOC);
     <?php
     require "footer.php";
     ?>
+
 </html>

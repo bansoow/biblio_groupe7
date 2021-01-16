@@ -1,4 +1,5 @@
-<?php $CONFIG=array("root_path"=>"/biblio_groupe7_etape5/"); ?>
+<?php $page_title = "Library 404";
+$CONFIG=array("root_path"=>"/biblio_groupe7_etape5/"); ?>
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -17,6 +18,7 @@
             <ul>
               <li><a href="index.php">Accueil</a></li>
               <li><a href="index.php">Nos séléctions</a></li>
+              <li><a href="ecrivains.php">Les auteurs</a></li>
               <li><a href="contact.php">Contact</a></li>
             </ul>
           </nav>
