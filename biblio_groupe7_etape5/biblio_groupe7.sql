@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : mer. 06 jan. 2021 à 16:41
+-- Généré le : Dim 17 jan. 2021 à 15:29
 -- Version du serveur :  5.7.31
 -- Version de PHP : 7.3.21
 
@@ -30,25 +30,24 @@ SET time_zone = "+00:00";
 DROP TABLE IF EXISTS `auteur`;
 CREATE TABLE IF NOT EXISTS `auteur` (
   `idPersonne` int(11) NOT NULL,
-  `idLivre` varchar(15) NOT NULL,
-  `idRole` int(11) NOT NULL
+  `idLivre` varchar(15) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
 -- Déchargement des données de la table `auteur`
 --
 
-INSERT INTO `auteur` (`idPersonne`, `idLivre`, `idRole`) VALUES
-(1, '9782843449260', 1),
-(2, '9782843449253', 1),
-(3, '9782843449246', 1),
-(4, '9782370490476', 1),
-(5, '9782370490506', 1),
-(6, '97822090172841', 1),
-(7, '9782361833619', 1),
-(8, '9782277124276', 1),
-(9, '9791035801823', 1),
-(10, '978-2290227268', 1);
+INSERT INTO `auteur` (`idPersonne`, `idLivre`) VALUES
+(1, '9782843449260'),
+(2, '9782843449253'),
+(3, '9782843449246'),
+(4, '9782370490476'),
+(5, '9782370490506'),
+(6, '97822090172841'),
+(7, '9782361833619'),
+(8, '9782277124276'),
+(9, '9791035801823'),
+(10, '978-2290227268');
 
 -- --------------------------------------------------------
 
@@ -172,24 +171,25 @@ CREATE TABLE IF NOT EXISTS `personne` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nom` varchar(150) NOT NULL,
   `prenom` varchar(150) DEFAULT NULL,
+  `ddn` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
 
 --
 -- Déchargement des données de la table `personne`
 --
 
-INSERT INTO `personne` (`id`, `nom`, `prenom`) VALUES
-(1, 'Stéphane', 'Przybylski'),
-(2, 'Geoffrey A', 'Landis'),
-(3, 'Roger', 'Zelazny'),
-(4, 'Vittorio', 'Catani'),
-(5, 'Philippe', 'Curval'),
-(6, 'NK', 'Jemisin'),
-(7, 'Brice', 'Tarvel'),
-(8, 'Daniel', 'Keyes'),
-(9, 'Ray', 'Bradbury'),
-(10, 'Isaac', 'Asimov');
+INSERT INTO `personne` (`id`, `nom`, `prenom`, `ddn`) VALUES
+(1, 'Stéphane', 'Przybylski', '1970'),
+(2, 'Geoffrey A', 'Landis', '28 mai 1955'),
+(3, 'Roger', 'Zelazny', '13 mai 1937'),
+(4, 'Vittorio', 'Catani', '17 juillet 1940'),
+(5, 'Philippe', 'Curval', '27 décembre 1929'),
+(6, 'NK', 'Jemisin', '19 septembre 1972'),
+(7, 'Brice', 'Tarvel', '5 août 1946'),
+(8, 'Daniel', 'Keyes', '9 août 1927'),
+(9, 'Ray', 'Bradbury', '22 août 1920'),
+(10, 'Isaac', 'Asimov', '2 janvier 1920');
 
 -- --------------------------------------------------------
 
